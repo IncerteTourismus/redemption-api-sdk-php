@@ -1,0 +1,22 @@
+{
+    "name": "incert/redemption-api-sdk-php",
+    "description": "Incert Redemption API SDK",
+    "type": "library",
+    "homepage": "https://www.incert.at",
+    "autoload": {
+        "psr-4": {
+            "Incert\\RedemptionApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raphael Berger",
+            "email": "raphael.berger@incert.at"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-json": "*"
+    }
+}
